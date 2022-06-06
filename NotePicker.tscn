@@ -7,7 +7,7 @@
 material = ExtResource( 2 )
 
 [sub_resource type="BoxShape" id=2]
-extents = Vector3( 0.273061, 0.415068, 0.246943 )
+extents = Vector3( 0.273061, 0.583063, 0.246943 )
 
 [node name="NotePicker" type="Spatial"]
 script = ExtResource( 1 )
@@ -19,6 +19,7 @@ mesh = SubResource( 1 )
 material/0 = null
 
 [node name="Area" type="Area" parent="." groups=["picker"]]
+angular_damp = 1.0
 
 [node name="CollisionShape" type="CollisionShape" parent="Area"]
 shape = SubResource( 2 )

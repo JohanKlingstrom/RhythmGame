@@ -15,6 +15,9 @@ func _ready():
 	set_material()
 	set_position()
 	
+func _process(delta):
+	collect()
+	
 func set_material():
 	match line:
 		1:
