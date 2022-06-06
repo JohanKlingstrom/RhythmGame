@@ -21,7 +21,7 @@ var notes_data = [
 	}
 ]
 
-var note_scale = 0.005
+var note_scale # 0.005
 
 func _ready():
 	add_notes()
