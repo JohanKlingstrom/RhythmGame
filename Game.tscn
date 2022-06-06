@@ -12,6 +12,7 @@ script = ExtResource( 2 )
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.904202, 0.427105, 0, -0.427105, 0.904202, 0, 2.13839, 1.92743 )
 current = true
+far = 16.0
 
 [node name="CameraDebug" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 15.025, -6.96918 )
